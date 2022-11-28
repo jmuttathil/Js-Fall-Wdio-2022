@@ -1,0 +1,25 @@
+
+    
+    
+    <div class="_9ay7">The email or mobile number you entered isn’t connected to an account. 
+        <a href="https://facebook.com/login/identify/">Find your account and log in.</a>
+    </div>
+    
+
+    //a[text()="Find your account and log in."]
+
+
+    * 1. using parent/grandparent/grand-grandparent etc
+    ** //select[@id="month"]//option[@selected]
+    ** //select[@id="day"]//option[@selected]
+    ** //div[@id="header"]//div[contains(@class,"selectric-units")]//b
+    ** //div[contains(@class, "selectric-open")]//li[starts-with(text(), "˚C,") and contains(text(), "mph")]
+    *
+    * 2. using xpath-axes
+    * 1. following-sibling
+    ** //tagName[condition(s)]/following-sibling::tag2[condition(s)]
+    * eg:
+    ** //h2[text()="November 2022"]/following-sibling::table//button[@disabled]
+    ** //label[text()="Female"]/following-sibling::input
+    ** //h2[text()="November 2022"]/following-sibling::table//button[@data-day="25"]
+    *

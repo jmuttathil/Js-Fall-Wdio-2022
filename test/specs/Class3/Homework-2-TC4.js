@@ -3,7 +3,7 @@
  *
  * 1. Launch Darksky
  * 2. Verify feelsLikeTempValue is in between lowTempValue and highTempValue
- */
+ */ 
 
 const { expect } = require('chai');
 const { it } = require('mocha');
