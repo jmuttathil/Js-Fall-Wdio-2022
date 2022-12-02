@@ -31,6 +31,17 @@ class SignUpPage {
   // SIGNUP BUTTON
   signUpButton = 'button[name=websubmit]';
 
+
+
+
+
+
+
+
+
+
+
+  
   // 2) FUNCTIONS
   // BASIC PROFILE
   async enterFirstName(firstName) {
