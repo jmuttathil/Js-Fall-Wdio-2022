@@ -11,7 +11,7 @@
  * 7. Click "Keep me signed in" checkbox
  * 8. Verify "Keep me signed in" is selected
  *
- */
+ */ 
 
 const { expect } = require('chai');
 const { it } = require('mocha');

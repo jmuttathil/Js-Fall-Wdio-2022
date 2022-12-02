@@ -11,7 +11,7 @@
  * 2. Click Create New Account button
  * 3. Verify current date is displayed in Date of birth dropdowns
  *
- */
+ */ 
 
 const { expect } = require("chai");
 const { it } = require("mocha");
